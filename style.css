@@ -1,0 +1,84 @@
+/*
+ * Globals
+ */
+
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+/*
+ * Base structure
+ */
+
+/*
+ * Header
+ */
+
+.banner-wrap {
+  /* feel free to use your own img  */
+  background-image: url(./assets/IMG_20211230_114848_286.jpg);
+  background-size:auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+}
+.overlay {
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  background: black;
+  opacity: 80%;
+  position: absolute;
+  top: 0;
+}
+
+.nav-masthead .nav-link {
+  padding: 0.25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: transparent;
+  border-bottom: 0.25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, 0.25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+.scrolling {
+  background: black;
+  opacity: 80%;
+  transition: all 0.5s;
+}
+
+h1 mark {
+  background-color: white; /* Replace with your desired background color */
+  padding: 5px; /* Add some padding for spacing */
+  border-radius: 5px; /* Add rounded corners for a nice look */
+  display: inline-block; /* Make it an inline block to contain the background color */
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+p {
+  font-family: 'Roboto', sans-serif; /* Roboto is a clean and modern sans-serif font */
+  font-size: 20px; /* Adjust the font size as needed */
+  /* Additional styling properties can be added here */
+}
